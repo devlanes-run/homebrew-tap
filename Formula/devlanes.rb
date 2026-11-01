@@ -10,28 +10,28 @@ class Devlanes < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.9.0/devlanes-0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "65d4a5a95a8ac061679dbe374c519ceb1ed63bed1b86852338efb0049e190a87"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.10.0/devlanes-0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "633189f2b71dd7dbb0126fe8a7e4e836894b98bedca9b29c83eee2dff3e4539c"
     end
     on_intel do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.9.0/devlanes-0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "79552baa6557cc30eeb606d6e21f6e6a3105775266dacc0bbefb5fb446c56188"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.10.0/devlanes-0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "93e56010d14888dd231af012dd804c0878ecde2b22b53123c632dfd2c35878ed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.9.0/devlanes-0.9.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "45238d664044a995bb30bf37269d33bff372ceb65d3b7d9f77e840a2d2afe564"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.10.0/devlanes-0.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ff7bd967ee3cdbdb84a126d282fa655037c15bd4d3d7bdda0ffcdb823a7c92b2"
     end
     on_intel do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.9.0/devlanes-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8b297846c68a7ebaf9c5700b92a898845a4202f97d11b6a3bb3bd0d2b722a640"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.10.0/devlanes-0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f1967ce8cac6d56b3893e7de57cc6ffe9107e171c60996e80678750cef9b6875"
     end
   end
 
   def install
-    # devlanes looks for devlanes-hosts next to itself when `devlanes certs trust --hosts`
+    # devlanes looks for devlanes-hosts next to itself when `devlanes setup`
     # copies the helper to /usr/local/libexec, so both go into the same bin.
     bin.install "devlanes", "devlanes-hosts"
   end
