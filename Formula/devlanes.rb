@@ -1,5 +1,5 @@
 class Devlanes < Formula
-  desc "Development environments in Git worktree lanes"
+  desc "Parallel local dev environments: run many copies of your stack across git worktrees, each with its own ports, hostnames and data"
   homepage "https://devlanes.run"
   license "Apache-2.0"
 
