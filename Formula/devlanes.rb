@@ -10,23 +10,23 @@ class Devlanes < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.0/devlanes-0.14.0-aarch64-apple-darwin.tar.gz"
-      sha256 "23e0c1d919f922fdda8458675221c77bd97b0fa0047da179cb308a05249c50ea"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.1/devlanes-0.14.1-aarch64-apple-darwin.tar.gz"
+      sha256 "aca3a59dfd5a593dea9dd146478c0aa683dbf758d3ffc0d5fd587f67beea73af"
     end
     on_intel do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.0/devlanes-0.14.0-x86_64-apple-darwin.tar.gz"
-      sha256 "38e6311c7f72121c9b9cd44cfd7229af3e1dcc1000a9778b140cd13193e8ffff"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.1/devlanes-0.14.1-x86_64-apple-darwin.tar.gz"
+      sha256 "c15b67b366883d9091ff9f8a74026b27cd022b2812e2f1fdb725bd2c4b148f2e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.0/devlanes-0.14.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5a1d92b459ebdb3f8892001185f1e4fc584f23203dfcde9bb6377cb3b10f49fb"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.1/devlanes-0.14.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7c440adf71612f7e76c5fe76826a43e0ed5a1cd95bf72ba8a37b31d3c39bdfbb"
     end
     on_intel do
-      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.0/devlanes-0.14.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3858bb13428e3108b2bd95e2807679a54a39f63c339a328687d5155245ba3cad"
+      url "https://github.com/devlanes-run/devlanes/releases/download/v0.14.1/devlanes-0.14.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8a22d24dc824f58a9a3c168fa5b1f9a88653360bbf3df88a730f8d7f2fbadf85"
     end
   end
 
